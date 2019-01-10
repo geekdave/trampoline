@@ -1,0 +1,23 @@
+{
+  "name": "trampoline-pi",
+  "version": "0.0.1",
+  "description": "a NodeJS app for measuring trampoline jumps using a Raspberry Pi and an HC-SR04 ultrasonic sensor",
+  "main": "trampoline.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/geekdave/trampoline.git"
+  },
+  "author": "Dave Cadwallader",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/geekdave/trampoline/issues"
+  },
+  "homepage": "https://github.com/geekdave/trampoline#readme",
+  "dependencies": {
+    "influx": "^5.0.7",
+    "pigpio": "1.2.1"
+  }
+}
